@@ -1,5 +1,5 @@
 {
-  "name": "oyxq-web",
+  "name": "yinpos-web",
   "version": "1.0.0",
   "description": "A Html Project",
   "author": "",
@@ -8,16 +8,5 @@
   "scripts": {
     "dev": "cd docs && anywhere -s -p 8081",
     "gitPush": "git status && git add -A && git status && git commit -am 'gx' && git status && git push origin master && git status"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 3.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  }
 }
