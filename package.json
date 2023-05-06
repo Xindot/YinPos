@@ -6,9 +6,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "cd html && anywhere -s -p 8081",
+    "dev": "cd docs && anywhere -s -p 8081",
     "gitPush": "git status && git add -A && git status && git commit -am 'gx' && git status && git push origin master && git status",
-    "pubNR": "rsync -avz --delete ./html/* root@www.oyxq.com:/home/fe_group/web/oyxq/web",
+    "pubNR": "rsync -avz --delete ./docs/* root@www.oyxq.com:/home/fe_group/web/oyxq/web",
     "pubAll": "npm run pubNR"
   },
   "dependencies": {},
