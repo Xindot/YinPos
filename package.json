@@ -1,0 +1,25 @@
+{
+  "name": "oyxq-web",
+  "version": "1.0.0",
+  "description": "A Html Project",
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cd html && anywhere -s -p 8081",
+    "gitPush": "git status && git add -A && git status && git commit -am 'gx' && git status && git push origin master && git status",
+    "pubNR": "rsync -avz --delete ./html/* root@www.oyxq.com:/home/fe_group/web/oyxq/web",
+    "pubAll": "npm run pubNR"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
